@@ -1,5 +1,6 @@
 import About from '../components/pages/About';
 import Home from '../components/pages/Home';
+import HooksExample from '../components/pages/HooksExample';
 import Users from '../components/pages/Users';
 
 export default [
@@ -20,6 +21,12 @@ export default [
     title: 'Users',
     url: '/users',
     component: Users,
+    show: true,
+  },
+  {
+    title: 'Hooks',
+    url: '/hooks',
+    component: HooksExample,
     show: true,
   },
 ];
