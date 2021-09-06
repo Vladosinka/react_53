@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-closing-bracket-location */
 import React from 'react';
 import jss from 'jss';
 import preset from 'jss-preset-default';
