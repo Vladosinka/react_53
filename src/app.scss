@@ -1,0 +1,23 @@
+  
+  .main{
+    background-color: #e7e7e7;
+    *{
+      box-sizing: border-box;
+    }
+    a{
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+  .container {
+    display: flex;
+    height: 100%;
+  }
+
+  .container_vertical {
+    flex-direction: column;
+  }
+
+  .container_horisontal {
+    flex-direction: row;
+  }

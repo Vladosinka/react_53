@@ -1,0 +1,31 @@
+.task {
+  color: red;
+  background-color: #e3e3e3;
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px 0px rgb(0 0 0 / 30%);
+  padding: 15px;
+  margin-bottom: 15px;
+
+  & span {
+    color: #868686;
+    display: block;
+    text-align: right;
+    margin: 0 0 15px 0;
+  }
+
+  & span:last-child {
+    margin: 0;
+  }
+
+  & h3 {
+    color: #323232;
+    margin: 0 0 15px 0;
+  }
+
+  & p {
+    color: #323232;
+    font-size: 14px;
+    margin: 0;
+    margin: 0 0 15px 0;
+  }
+}

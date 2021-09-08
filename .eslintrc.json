@@ -46,7 +46,6 @@
       "aspects": ["invalidHref"]
     }],
     "react/jsx-boolean-value": ["warn", "never"],
-    "react/jsx-closing-bracket-location": ["warn", "after-props"],
     "react/jsx-curly-spacing": ["warn", "never"],
     "react/jsx-filename-extension": ["warn", {
       "extensions": [".jsx"]

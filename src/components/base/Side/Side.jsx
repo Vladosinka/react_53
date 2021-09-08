@@ -1,16 +1,11 @@
 import React from 'react';
-import jss from 'jss';
-import preset from 'jss-preset-default';
 import { Link } from 'react-router-dom';
-import styles from './styles';
+import styles from './styles.scss';
 import routes from '../../../configs/routes';
-
-jss.setup(preset());
-const { classes } = jss.createStyleSheet(styles).attach();
 
 function Side() {
   return (
-    <div className={classes.side}>
+    <div className={styles.side}>
       <ul>
         {routes.map((item) =>
           item.show ? (

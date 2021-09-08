@@ -1,4 +1,4 @@
-import About from '../components/pages/About';
+import Kanban from '../components/pages/Kanban';
 import Home from '../components/pages/Home';
 import HooksExample from '../components/pages/HooksExample';
 import Users from '../components/pages/Users';
@@ -12,19 +12,19 @@ export default [
     exact: true,
   },
   {
-    title: 'About',
-    url: '/about',
-    component: About,
-    show: false,
+    title: 'Kanban',
+    url: '/kanban',
+    component: Kanban,
+    show: true,
   },
   {
-    title: 'Users',
-    url: '/users',
+    title: 'ClassClock',
+    url: '/cloxk',
     component: Users,
     show: true,
   },
   {
-    title: 'Hooks',
+    title: 'HooksClock',
     url: '/hooks',
     component: HooksExample,
     show: true,
