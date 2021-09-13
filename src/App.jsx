@@ -5,6 +5,8 @@ import Header from './components/base/Header';
 import Side from './components/base/Side';
 import Main from './components/base/Main';
 import styles from './app.scss';
+// eslint-disable-next-line no-unused-vars
+import variables from './variables.scss';
 
 class App extends React.PureComponent {
   render() {
